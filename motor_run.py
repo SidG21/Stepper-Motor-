@@ -102,6 +102,7 @@ def motor8():
     forward_step_distance8(50)
     reverse_step_distance8(50)
     '''
+#threads have been defined
 if __name__=="__main__":
     
     '''a=threading.Thread(target=motor1,args=())
@@ -113,6 +114,7 @@ if __name__=="__main__":
     g=threading.Thread(target=motor7,args=())
     h=threading.Thread(target=motor8,args=())
     '''
+    #to initiate threads
     '''a.start()
     b.start()'''
     '''c.start()
